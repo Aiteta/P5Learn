@@ -1,8 +1,9 @@
-let iter  = 12;
-let scale = 0.6;
+let iter   = 12;
+let scale  = 0.72;
+let del_an = Math.PI/5;
 
 function setup() {
-  createCanvas(1000,601);
+  createCanvas(1000,750);
 }
 
 function draw() {
@@ -19,6 +20,6 @@ function draw_line(startX,startY,len,angle,i) {
   if (i > iter) {
     return;
   }
-  draw_line(endX,endY,len*scale,angle+Math.PI/4,i+1);
-  draw_line(endX,endY,len*scale,angle-Math.PI/4,i+1);
+  draw_line(endX,endY,len*scale,angle+del_an,i+1);
+  draw_line(endX,endY,len*scale,angle-del_an,i+1);
 }

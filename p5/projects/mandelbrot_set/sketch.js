@@ -1,6 +1,6 @@
-let x_width = 10001;
-let y_width = 10001;
-iter = 100;
+let x_width = 15000;
+let y_width = 15000;
+iter = 110;
 finished = false;
 let a = 0;
 let b = 0;
