@@ -1,6 +1,6 @@
 let iter   = 12;
-let scale  = 0.72;
-let del_an = Math.PI/5;
+let scale  = 0.8;
+let del_an = Math.PI-0.5;
 
 function setup() {
   createCanvas(1000,750);
